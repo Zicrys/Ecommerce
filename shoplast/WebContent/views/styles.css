@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+body{
+	background: #000 url(fon.jpg);
+	background-size: 100% auto;
+	color: #fff;
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+	font-family: Verdana, Georgia, "Roboto";
+	font-type: monospaced;
+	background-color:  #fcfeff;
+}
+
+table {
+	margin: auto;
+	text-align: center;
+	width: 95%; 
+	height: 30%;
+	background: rgba(241, 233, 233, 0.7);
+	border-collapse: collapse;
+	border: rgba(241, 233, 233, 0.7);
+	border-radius: 5px;
+	font-family: "Roboto";
+	font-size: 18px;
+	color: rgba(8, 8, 8, 0.77);
+	padding-right: 50px;
+}
+
+.in{
+	width: 40%; 
+}
+td, th {
+	padding: 5px; /* Поля вокруг текста */
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+
+}
+
+
+
+td.des{
+	text-align: left;
+}
+td.sum{
+	text-align: left;
+	text-size:22px;
+	font-weight: 600;
+}
+
+td.add{
+	text-align: center;
+	font-weight: 600;
+	font-size:20px
+}
+
+.con{
+	text-align: center;
+	font-weight: 600;
+	font-size:25px;
+	font-family: "Roboto";
+	color: rgba(8, 8, 8, 0.88);
+  	text-shadow: 1px 1px 1px rgba(247, 241, 241, 0.53);
+}
+
+.photo {
+    display: block; /* Рисунок как блочный элемент */
+   }
+.authcaption{
+	text-align:center;
+	font-size:25px;
+	font-family: "Roboto";
+	text-shadow: 0 0 5px 2px #666;
+}
+.enter{
+	align: center;
+	background: rgba(8, 8, 8,0.6);
+	border-radius: 5px 5px 5px 5px;
+	cursor: pointer;
+	font-family: FontAwesome;
+	font-size: 17px;
+	color: white;
+}
+.logform{
+	border: 2px solid rgba(241, 233, 233, 0.7);
+	background: #fcfeff;
+	color: rgba(8, 8, 8, 0.8);	
+}
+
+.log{
+	width:251px;
+	height:0px;
+	font-family: "Roboto";
+    color: rgba(8, 8, 8, 0.66);
+    text-shadow: 1px 1px 1px rgba(247, 241, 241, 0.53);
+	float:left;
+	line-height:0.4em;
+	font-size: 22px;
+	margin-left:6%;
+}
+.hello{
+	font-size: 24px;
+	height:0px;
+	width: 150pt;
+	float:right;
+	font-family: "Roboto";
+	color: rgb(8, 8, 8);
+    text-shadow: 1px 1px 1px rgba(247, 241, 241, 0.53);
+    margin-right: 60px;
+    margin-top: 58px;
+}
+
+.logt{
+	font-size: 29px;
+}
+.slog{
+	font-size: 19px;
+}
+
+{box-sizing: border-box;}
+.form{
+	float:right;
+	position: relative;
+	width: 300px;
+	height: 0px;
+	margin-top: 25pt;
+	margin-right:7%;
+}
+.i {
+	width: 100%;
+	height: 42px;
+	border: 2px solid rgba(8, 8, 8, 0.66);
+	border-radius: 5px;
+	outline: none;
+	background: rgba(225, 225, 225, 0.1);
+	color: rgba(8, 8, 8, 0.8);
+	padding-left:20px;
+
+}
+.submit{
+	position: absolute; 
+	top: 0;
+	right: 0pt;
+	width: 60px;
+	height: 40px;
+	border: none;
+	background: rgba(8, 8, 8, 0.66);
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+.submit:before {
+	content: "Найти!";
+	font-family: FontAwesome;
+	font-size: 16px;
+	color: #fcfeff;
+}
+
+
+nav {
+  max-width: 1254px;
+  mask-image: linear-gradient(90deg, rgba(241, 233, 233, 0.01) 0%, #f5eded 25%, #fbf4f4 75%, rgba(241, 235, 235, 0) 100%);
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(245, 235, 235, 0) 0%, rgba(243, 235, 235, 0.2) 25%, rgba(239, 239, 239, 0.2) 75%, rgba(243, 242, 242, 0) 100%);
+  width: 100%;
+  box-shadow: 0 0 25px rgba(23, 22, 22, 0.15), inset 0 0 1px rgba(249, 245, 245, 0.63);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 18.9px;
+  font-family: "Roboto";
+  color: rgba(8, 8, 8, 0.66);
+  text-shadow: 1px 1px 1px rgba(247, 241, 241, 0.53);
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.64);
+}
+
+
+.message{
+	color: rgba(8, 8, 8, 0.66);
+	text-size:25px;
+}
+.Registration{
+	color: rgba(8, 8, 8, 0.8);
+	text-decoration: none;
+}
+.Registration:hover{
+	color: rgba(8, 8, 8, 0.4);
+	text-decoration: none;
+}
+.info{
+	text-shadow: 1px 1px 4px black;
+	font-size:20px;
+	text-align:center;
+}
+.bk{
+	text-shadow: 5px 5px 5px grey;
+	color: #f5f5dc;
+	text-decoration: none;
+	font-size:25px;
+	margin-left:260pt;
+}
+.bk:hover{
+	text-shadow: 5px 5px 5px 2px grey;
+	color: #f5f5dc;
+	text-decoration: none;
+	font-size:25px;
+}
+.addtobk{
+	color: rgba(8, 8, 8, 1);
+	text-decoration: none;
+	font-size: 19px;
+}
+.addtobk:hover{
+	color: rgba(8, 8, 8, 0.6);
+	text-decoration: none;
+}
